@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: fd962bf2e4431cf41aa3330e9819c368
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spectrumPrefab: {fileID: 4326555422126377326, guid: a78d0d93c4394844c8df2f9733b08ad8,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
