@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2a29cd1674bca594b9465c2828fe3892
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - <CubePrefab>k__BackingField: {fileID: 8149528023765849285, guid: 15e7b912971cbf9428fe286056c1f8f7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -20,7 +20,7 @@ public class Oscillator
     private double samplingFrequency = 48000.0;     //La fréquence d'échantillonage par défaut d'Unity
 
 
-    float[] frequencies; //Les différentes fr&quences jouées par les touches
+    float[] frequencies; //Les différentes fréquences jouées par les touches
     int curFreq;        //la fréquence en cours
 
 

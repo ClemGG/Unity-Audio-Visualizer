@@ -2,8 +2,7 @@
     "name": "Project.Audio",
     "rootNamespace": "",
     "references": [
-        "GUID:b20bc89f5ab451a49bd91b41e5c4a07a",
-        "GUID:e9c94529b189b1e4d9d220991c088569"
+        "GUID:32c702808586ccd40b0dea2d8d33caa5"
     ],
     "includePlatforms": [
         "Editor",
