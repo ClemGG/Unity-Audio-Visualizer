@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Video;
 
 /// <summary>
 /// Récupère le son du micro
@@ -23,6 +24,7 @@ public class AudioInput : MonoBehaviour
 
     #region Variables d'instance
 
+    [SerializeField] private bool _useMicrophone;
     private AudioSource _audioSource;
 
     #endregion
@@ -36,7 +38,7 @@ public class AudioInput : MonoBehaviour
         _audioSource.loop = true;
 
         //S'assure qu'on ait au moins 1 entrée audio (microphone) pour continuer
-        if (Microphone.devices.Length > 0)
+        if (_useMicrophone && Microphone.devices.Length > 0)
         {
             string selectedDevice = Microphone.devices[0];
 

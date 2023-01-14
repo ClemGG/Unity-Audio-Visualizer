@@ -166,7 +166,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &665953173
 GameObject:
@@ -196,7 +196,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 972260c5396839a47935dbb2f752f166, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b792f3b6a0bb01499844d1a4db891cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _useMicrophone: 0
 --- !u!4 &665953176
 Transform:
   m_ObjectHideFlags: 0
@@ -498,7 +499,7 @@ GameObject:
   - component: {fileID: 2142475430}
   - component: {fileID: 2142475431}
   m_Layer: 0
-  m_Name: 3D cube waveform visualisation
+  m_Name: Waveform visualisation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -517,7 +518,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2142475431
 MonoBehaviour:
